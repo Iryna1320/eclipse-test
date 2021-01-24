@@ -1,0 +1,14 @@
+.button{
+    display: inline-block;
+    
+padding: 14px 42px;
+background: $accent-color;
+ color:$white-color;
+ box-shadow: 0 0 5px rgba(1, 1, 1, 0.75), inset 0 0 5px rgba(255, 255, 255, 0.36);
+font-size: 15px;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+text-transform: uppercase;
+cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.horse{
+  max-width: 1920px;
+  // height: 576px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(../image/horse-original.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // opacity: 0.6;  
+}
+
+.horse-text{
+  padding-top: 56px;
+  padding-bottom: 49px;
+  padding-left: 714px;
+  padding-right: 219px;
+  color:$grey-color;
+  font-size: 20px;
+  text-align: center;
+}
+
+.horse.title{
+  font-size: 50px;
+  font-weight: 100;  
+  text-align: left;
+  color: $grey-color;
+}

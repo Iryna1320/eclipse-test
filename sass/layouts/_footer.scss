@@ -1,0 +1,93 @@
+.footer {
+  max-width: 1920px;
+  height: 581px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6)),
+    url(../image/map-original.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.contacts-footer {
+  display: flex;
+  max-width: 1920px;
+  height: 548px;
+  padding-top: 34px;
+  padding-left: 700px;
+  padding-bottom: 34px;
+}
+
+.footer-form {
+  width: 280px;
+  padding-top: 54px;
+  padding-right: 24px;
+  padding-bottom: 29px;
+  padding-left: 23px;
+  background-color: $white-color;
+  box-shadow: 0 0 10px rgba(1, 2, 2, 0.5);
+  border: 1px solid $accent-color;
+}
+
+.footer-form-title {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  color: $primary-color;
+}
+
+.footer-form-text {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  color: $red-color;
+}
+
+.social {
+  display: flex;
+  padding-left: 380px;
+  padding-right: 360px;
+  justify-content: space-between;
+  background-color: $accent-color;
+  text-decoration: none;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 4px;
+}
+
+.footer-item {
+  display: flex;
+  padding-bottom: 100px;
+  margin-right: 29px;
+  align-items: flex-end;
+}
+
+.footer-list {
+  text-align: right;
+  color: $accent-color;
+}
+
+.footer-tel {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.footer-email {
+  font-size: 22px;
+}
+
+.footer-address {
+  font-size: 22px;
+  line-height: 1.14;
+}

@@ -1,0 +1,75 @@
+.causes{
+  padding: 60px 210px;
+}
+
+.causes-flex{
+display: flex;
+}
+
+.causes-flex-item{
+margin-left: 65px;
+}
+
+.causes-title{
+  margin-top: 0;
+  color: $accent-color;
+font-size: 50px;
+line-height: 46px;
+text-align: left;
+}
+
+.causes-title-first{
+  font-size: 35px;
+}
+
+.causes-title-two{
+  margin-top: 0;
+  margin-bottom: 44px;
+  font-size: 30px;
+line-height: 30px;
+}
+
+.causes-text{
+  margin-top: 0;
+  margin-bottom: 41px;
+  color: $black-color;
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+}
+
+.causes-form{  
+  // width: 100%;
+  padding-top: 86px;
+  padding-right: 25px;
+  padding-bottom: 29px;
+  padding-left: 24px;
+  box-shadow: 0 0 10px rgba(1, 2, 2, 0.5);
+  border: 1px solid$accent-color;
+}
+
+.causes-form-title{
+color: $red-color;
+font-size: 20px;
+line-height: 23.99px;
+text-align: left;
+}
+
+.forms-text-causes{
+height: 44px;
+}
+
+.causes-form-btn{
+  max-width: 233px;
+  margin-top: 38px;
+  margin-bottom: 0;
+}
+
+
+
+// .forms-icon{
+//   position: absolute;
+//     display: inline-block;
+//     top: 20%;
+//     right: 50%;
+// }

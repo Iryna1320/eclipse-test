@@ -1,0 +1,66 @@
+.translators {
+  padding-left: 210px;
+  padding-right: 210px;
+}
+
+.translators-flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+.translators-item {
+  width: calc((100% - 4 * 70px) / 4);
+  margin: 35px;
+}
+
+.translators-flex-item {
+  width: calc((100% - 2 * 124px) / 2);
+  margin: 75px;
+}
+
+.translators-title {
+  margin: 0;
+  font-size: 35px;
+  text-align: left;
+  color: $accent-color;
+}
+
+.translators-title-first {
+  font-size: 50px;
+  line-height: 0.92;
+}
+
+.translators-title-two {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.translation-text {
+  margin: 0;
+  font-size: 20px;
+  text-align: left;
+  color: $primary-color;
+}
+
+.translators-view {
+  padding-top: 25px;
+  font-size: 15px;
+  text-align: left;
+  color: $primary-color;
+}
+
+.translators-img {
+  object-fit: cover;
+}
+
+.translators-item-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.translators-item-text {
+  margin: 0;
+  font-size: 15px;
+  text-align: left;
+  color: $primary-color;
+}

@@ -1,0 +1,85 @@
+.proposition {
+  margin-top: 60px;
+  padding-left: 210px;
+}
+
+.proposition-flex {
+  display: flex;
+}
+
+.proposition-margin {
+  padding-top: 39px;
+  padding-left: 43px;
+}
+
+.proposition-num {
+  margin-bottom: 44px;
+  color: $languages-color;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.proposition-txt {
+  margin-bottom: 84px;
+  padding-right: 441px;
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.title-proposition {
+  margin: 0;
+  padding-right: 920px;
+  color: $accent-color;
+  font-size: 35px;
+  text-align: left;
+}
+
+.title-proposition-one {
+  font-size: 50px;
+  line-height: 46px;
+  text-align: left;
+}
+
+.title-proposition-two {
+  margin: 0;
+  color: $red-color;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.proposition-text {
+  padding-right: 250px;
+  color: $primary-color;
+  font-size: 20px;
+  text-align: left;
+}
+
+.proposition-text-accent {
+  color: $accent-color;
+}
+
+.proposition-list-flex {
+  display: flex;
+}
+
+.proposition-item:not(:last-child) {
+  margin-right: 9px;
+}
+
+.proposition-item-first {
+  background: $accent-color;
+}
+
+.proposition-border {
+  width: 1170px;
+  height: 1px;
+  margin-top: 12px;
+  border: solid 1px $linear-color;
+  background-color: $linear-color;
+}

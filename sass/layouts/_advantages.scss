@@ -1,0 +1,30 @@
+.advantages {
+  padding-left: 210px;
+  padding-right: 210px;
+}
+
+.advantages-title {
+  margin-top: 67px;
+  padding-right: 595px;
+  color: $primary-color;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages-item {
+  width: calc((100% - 3 * 60px) / 3);
+  margin: 30px;
+  text-align: center;
+}
+
+.advantages-btn {
+  text-align: center;
+  margin-bottom: 59px;
+}

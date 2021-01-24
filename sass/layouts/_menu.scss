@@ -1,0 +1,25 @@
+.menu-list{
+  display: flex;
+  padding: 20px 210px;
+  justify-content: flex-end;
+}
+
+.menu-item{
+cursor: pointer;
+
+  &:not(:last-child){
+margin-right: 60px;
+}
+}
+
+  .menu-item:hover::after,
+  .menu-item:focus::after {
+    opacity: 1;
+  }
+
+  .menu-item:hover,
+  .menu-item:focus {
+    color: $accent-color;
+    // transform: translateY(100%);
+  }
+

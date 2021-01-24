@@ -1,0 +1,56 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $white-color;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  // @include for-size(desktop) {
+  //   padding-top: 94px;
+  //   padding-bottom: 94px;
+  // }
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: $accent-color;
+}
+
+.container {
+  max-width: 1590px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.svg path {
+  background-color: $accent-color;
+  fill: $accent-color;
+}
